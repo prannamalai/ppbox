@@ -16,7 +16,7 @@ Response: It currently outputs data in json/xml formats
 
 Calling from PHP to avoid REST call
 -----------------------------------------
-If you have a PHP application, and you want to avoid going through REST interface you can directly invoke any flow. Please refer to <a href="https://github.com/vaibhav276/ppbox/tree/public/controller#calling-directly-from-php-application"> controller documentation </a> for this.
+If you have a PHP application, and you want to avoid going through REST interface you can directly invoke any flow. Please refer to <a href="https://github.com/vaibhav276/ppbox/tree/master/controller#calling-directly-from-php-application"> controller documentation </a> for this.
 
 Get list of actions
 ----------------------
