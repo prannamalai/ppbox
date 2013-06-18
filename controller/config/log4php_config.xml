@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration xmlns="http://logging.apache.org/log4php/">
+	<appender name="default" class="LoggerAppenderFile">
+		<layout class="LoggerLayoutPattern">
+			<param name="conversionPattern" value="(%pid) %date %-15logger %-5level - [%class::%method] - %msg%n" />
+		</layout>
+		<param name="file" value="/var/tmp/ppbox.log" />
+		<param name="append" value="true" />
+	</appender>
+	<root>
+		<appender_ref ref="default" />
+	</root>
+</configuration>
