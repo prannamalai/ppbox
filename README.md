@@ -4,6 +4,8 @@ ppbox is a framework to integrate various PayPal functionalities under a single 
 
 The primary intent of this framework is to provide a common and simple interface for merchant's cart application along-with the support for configuring business functionalities and PayPal specific details separately (without affecting each other). We have designed this framework from ground-up for making it easy to add new functionality and PayPal API packages without touching the running functionality. Simplicity and configurability are our guiding principles.
 
+<b> Note: </b> This project is now actively maintained at another location: https://github.com/geekstore/ppbox. So please fork/follow the new location to stay updated.
+
 Dependencies
 ==================================
 * PHP 5.4.3
